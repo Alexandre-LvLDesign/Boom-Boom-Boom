@@ -51,7 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CanonShootP1.cs" />
+     <Compile Include="Assets\Scripts\CanonShootP2.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\ProjectilBehavior.cs" />
      <Compile Include="Assets\Scripts\Rails.cs" />
      <None Include="Assets\Import\SimplyPack\readMe.txt" />
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
