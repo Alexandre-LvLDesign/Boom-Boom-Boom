@@ -2230,8 +2230,8 @@ Transform:
   m_LocalScale: {x: 3.3567698, y: 2.60519, z: 2.4858499}
   m_Children:
   - {fileID: 1470224584}
-  - {fileID: 1899597309}
   - {fileID: 1468124602}
+  - {fileID: 1899597309}
   m_Father: {fileID: 1406331628}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180.00002, z: 0}
@@ -2247,10 +2247,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanonHead: {fileID: 275387390}
-  BallPrefab: {fileID: 0}
+  BallPrefab: {fileID: 1076302910779392, guid: 12806652efd702e4c928418fc1763d43, type: 2}
   BallSpawn: {fileID: 656948344}
   SpawnRadius: 0.31
   BallSpeed: 40
+  isDestroyed: 1
 --- !u!114 &719940580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12192,6 +12193,7 @@ GameObject:
   - component: {fileID: 1118475712}
   - component: {fileID: 1118475714}
   - component: {fileID: 1118475713}
+  - component: {fileID: 1118475715}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -12257,6 +12259,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1118475711}
   m_Mesh: {fileID: 4300012, guid: 64b373dc9644b9c47b9180ddbb7cfa66, type: 3}
+--- !u!114 &1118475715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1118475711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27287afaeb19f7f4ca46b56fc0dd07c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1123696295
 Prefab:
   m_ObjectHideFlags: 0
@@ -13273,7 +13286,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1468124602}
   - component: {fileID: 1468124601}
-  - component: {fileID: 1468124600}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: MainCamera
@@ -13281,13 +13293,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1468124600
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1468124599}
-  m_Enabled: 1
 --- !u!20 &1468124601
 Camera:
   m_ObjectHideFlags: 0
@@ -13335,7 +13340,7 @@ Transform:
   m_LocalScale: {x: 0.40227684, y: 0.3331931, z: 0.34856206}
   m_Children: []
   m_Father: {fileID: 719940578}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 24.326, y: 0, z: 0}
 --- !u!1 &1470224583
 GameObject:
@@ -14525,7 +14530,7 @@ Transform:
   - {fileID: 1188527199}
   - {fileID: 275387391}
   m_Father: {fileID: 719940578}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1902348197
 GameObject:
@@ -14611,6 +14616,7 @@ MonoBehaviour:
   BallSpawn: {fileID: 423046642}
   SpawnRadius: 0.31
   BallSpeed: 40
+  isDestroyed: 1
 --- !u!1001 &1909658545
 Prefab:
   m_ObjectHideFlags: 0

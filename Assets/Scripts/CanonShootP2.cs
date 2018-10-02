@@ -10,17 +10,21 @@ public class CanonShootP2 : MonoBehaviour
 		public Transform BallSpawn;
 		public float SpawnRadius = 2f;
 		public float BallSpeed = 40f;
-
+		public bool isDestroyed = true;
+		
 		private void Update() 
 		{
-			if(Input.GetButtonDown("FireP2"))
+			if(Input.GetAxis("RightTriggerJ2") > 0.1f && isDestroyed==true )
 			{
 				Fire();
+				Debug.Log("Pressed j2");
+
 			}
 		}
 
 		void Fire()
 		{
+			isDestroyed = false;
 			CannonBall = Instantiate(BallPrefab, BallSpawn.position, BallSpawn.rotation);
 			CannonBall.GetComponent<Rigidbody>().velocity = CannonBall.transform.forward*BallSpeed;
 
