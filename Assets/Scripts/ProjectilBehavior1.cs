@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ProjectilBehavior1 : MonoBehaviour 
-
 {
-	
+
+
+
 
 	private void OnCollisionEnter(Collision other) 
 		{
@@ -13,5 +14,7 @@ public class ProjectilBehavior1 : MonoBehaviour
 			Destroy(gameObject);
 	
 		}
+		
+
 
 }

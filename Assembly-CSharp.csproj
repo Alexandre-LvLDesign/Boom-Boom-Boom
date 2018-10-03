@@ -52,9 +52,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CanonControlJ1.cs" />
+     <Compile Include="Assets\Scripts\CanonControlJ2.cs" />
      <Compile Include="Assets\Scripts\CanonShootP1.cs" />
      <Compile Include="Assets\Scripts\CanonShootP2.cs" />
-     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\MoveP1.cs" />
+     <Compile Include="Assets\Scripts\MoveP2.cs" />
      <Compile Include="Assets\Scripts\ProjectilBehavior1.cs" />
      <Compile Include="Assets\Scripts\ProjectilBehavior2.cs" />
      <Compile Include="Assets\Scripts\Rails.cs" />
