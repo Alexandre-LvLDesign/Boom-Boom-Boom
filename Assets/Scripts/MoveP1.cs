@@ -29,16 +29,16 @@ public class MoveP1 : MonoBehaviour
 	{
 		float m = (rail.nodes[currentSeg + 1].position - rail.nodes[currentSeg].position).magnitude;
 		float s = (Time.deltaTime * 1 /m) * speed;
-		//transition += (forward) ? s : -s;
+		
 		
 		if(Input.GetAxis("LeftJoystickHorizontalJ1") >= 0.1)
 		{
-			//Avance sur le côté droit mais de temps en temps il avance tout seul (mettre une dead zone ?)
+			
 			transition += (forward) ? s : -s;
 		}
 		if(Input.GetAxis("LeftJoystickHorizontalJ1") <= -0.1)
 		{
-			//Ce qu'il faut c'est lui dire de faire une transition backward entre les nods. Essaye de voir pour faire -m en quelque sorte.
+			
 			transition -= (forward) ? s : -s;
 		}
 

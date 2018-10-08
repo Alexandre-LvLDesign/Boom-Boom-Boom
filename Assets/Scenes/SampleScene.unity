@@ -17439,10 +17439,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ySpeed: 40
   xRotationSpeed: 40
-  xAngle: -105
   minXRotation: 0
   maxXRotation: 0
-  yAngle: 105
   minYRotation: 0
   maxYRotation: 0
 --- !u!1001 &1967505277
