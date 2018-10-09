@@ -112,6 +112,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2c0a1b84f48ad341baac5208eca0d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParticlesToSpawn:
+  - {fileID: 1632253444606372, guid: 1754db43c3ccf204886a5a1bfdc135ea, type: 2}
+  - {fileID: 1907622781600756, guid: 847e0f46e30e45142bf1d75925395b06, type: 2}
+  - {fileID: 1380826951814148, guid: 1ef2120419424ad4cad1dc5b08b4d4d3, type: 2}
+  - {fileID: 1640504103435982, guid: 1850f4f36766ca44f92517677bac21a3, type: 2}
+  - {fileID: 1090150987040628, guid: 3b489b5afb907ef45812b4d66cf420c8, type: 2}
 --- !u!135 &135243752646822928
 SphereCollider:
   m_ObjectHideFlags: 1

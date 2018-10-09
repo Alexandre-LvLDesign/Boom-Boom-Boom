@@ -51,6 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
+     <Compile Include="Assets\Import\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\Scripts\CanonControlJ1.cs" />
      <Compile Include="Assets\Scripts\CanonControlJ2.cs" />
      <Compile Include="Assets\Scripts\CanonShootP1.cs" />
@@ -60,6 +70,12 @@
      <Compile Include="Assets\Scripts\ProjectilBehavior1.cs" />
      <Compile Include="Assets\Scripts\ProjectilBehavior2.cs" />
      <Compile Include="Assets\Scripts\Rails.cs" />
+     <Compile Include="Assets\Scripts\StateP1.cs" />
+     <None Include="Assets\Import\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\Import\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Import\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+     <None Include="Assets\Import\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Import\JMO Assets\!JMO Assets Readme.txt" />
      <None Include="Assets\Import\SimplyPack\readMe.txt" />
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>D:/Games/Boom Boom Boom/Boom Boom Boom/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FxTemporaire
+  - WaterSplash
+  - TerrainTag
+  - PlayerTag
+  - TreeTag
+  - RockTag
   layers:
   - Default
   - TransparentFX
@@ -15,9 +21,9 @@ TagManager:
   - 
   - PostProcessing
   - Cannon
-  - Water
-  - 
-  - 
+  - WaterPond
+  - IgnoreLayer
+  - ColliderLayer
   - 
   - 
   - 
