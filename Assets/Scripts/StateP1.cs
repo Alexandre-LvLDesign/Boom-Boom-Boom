@@ -9,17 +9,35 @@ public class StateP1 : MonoBehaviour
 	private float Health;
 	public GameObject DeathEffect;
 	public Image HealtBar;
+	
+	public GameObject ScriptToDeactivate;
+	public GameObject ScriptToDeactivate_2;
 
 
 	void Start()
 	{
 		Health = HealthPoint;
+		//myScript = gameObject.GetComponent<CustomScript>();
 	}
 
 	public void Damaged ( float Amount)
 	{
 		HealthPoint -= Amount;
-		HealtBar.fillAmount =  Health / HealthPoint;
+		HealtBar.fillAmount =  HealthPoint / Health;
+
+		if (HealthPoint <= 0)
+		{
+			Die();
+		}
+		
+	}
+	private void Die()
+	{
+		Instantiate(DeathEffect, transform.position, transform.rotation);
+		ScriptToDeactivate.GetComponent<MoveP1>().enabled= false;
+		ScriptToDeactivate.GetComponent<CanonShootP1>().enabled= false;
+		ScriptToDeactivate_2.GetComponent<CanonControlJ1>().enabled= false;
 		
 	}
 }
+	

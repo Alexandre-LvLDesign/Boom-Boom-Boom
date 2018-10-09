@@ -10,6 +10,8 @@ TagManager:
   - PlayerTag
   - TreeTag
   - RockTag
+  - PlayerTag_1
+  - PlayerTag_2
   layers:
   - Default
   - TransparentFX
@@ -24,8 +26,8 @@ TagManager:
   - WaterPond
   - IgnoreLayer
   - ColliderLayer
-  - 
-  - 
+  - UIP1
+  - UIP2
   - 
   - 
   - 

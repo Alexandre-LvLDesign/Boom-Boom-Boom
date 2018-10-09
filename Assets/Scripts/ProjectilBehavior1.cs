@@ -32,10 +32,17 @@ public class ProjectilBehavior1 : MonoBehaviour
 				Instantiate(ParticlesToSpawn[0], transform.position, transform.rotation);
 				Destroy(gameObject);
 			}
-			else if (other.transform.tag =="PlayerTag")
+			else if (other.transform.tag =="PlayerTag_1")
 			{
 				GameObject.Find("Player1_Kart").GetComponent<CanonShootP1>().isDestroyed=true;
-				GameObject.Find("Player1_Kart").GetComponent<StateP1>().HealthPoint -= 10;
+				GameObject.Find("Player1_Kart").GetComponent<StateP2>().Damaged(3);
+				Instantiate(ParticlesToSpawn[1], transform.position, transform.rotation);
+				Destroy(gameObject);
+			}
+			else if (other.transform.tag =="PlayerTag_2")
+			{
+				GameObject.Find("Player1_Kart").GetComponent<CanonShootP1>().isDestroyed=true;
+				GameObject.Find("Player2_Kart").GetComponent<StateP2>().Damaged(10);
 				Instantiate(ParticlesToSpawn[1], transform.position, transform.rotation);
 				Destroy(gameObject);
 			}

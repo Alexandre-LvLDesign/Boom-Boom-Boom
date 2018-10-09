@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\ProjectilBehavior2.cs" />
      <Compile Include="Assets\Scripts\Rails.cs" />
      <Compile Include="Assets\Scripts\StateP1.cs" />
+     <Compile Include="Assets\Scripts\StateP2.cs" />
      <None Include="Assets\Import\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\Import\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
      <None Include="Assets\Import\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
