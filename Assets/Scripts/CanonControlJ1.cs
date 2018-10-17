@@ -20,24 +20,22 @@ public class CanonControlJ1 : MonoBehaviour
 
 
     private void Start() {
-        xAngle = transform.rotation.x;
-        yAngle = transform.rotation.y;
+        
     }
 
     void Update () 
     {
         //Horizontal => regarder de droite à gauche => axe Y =>RightJoystickHorizontalJ1
         //Vertical => Regarder de haut en bas => axe X => RightJoystickVerticalJ1
-        xAngle +=Input.GetAxis("RightJoystickVerticalJ1");
-        yAngle +=Input.GetAxis("RightJoystickHorizontalJ1");
+        xAngle = Input.GetAxis("RightJoystickVerticalJ1");
+        yAngle = Input.GetAxis("RightJoystickHorizontalJ1");
 
-        /*Mathf.Clamp(yAngle,minYRotation, maxYRotation );
-        Mathf.Clamp(xAngle,minXRotation, maxXRotation );*/
-
+        yAngle = Mathf.Clamp(yAngle, -60, 60);
+        
         // transform.eulerAngles = new Vector3(xAngle, yAngle ,0.0f);
     
 
-        transform.Rotate(Input.GetAxis("RightJoystickVerticalJ1"), Input.GetAxis ("RightJoystickHorizontalJ1") * ySpeed, 0.0f);
+        //transform.Rotate(xAngle, yAngle * ySpeed, 0.0f);
         //transform.eulerAngles.y =
     }
 }

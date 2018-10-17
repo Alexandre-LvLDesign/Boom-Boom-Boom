@@ -52,6 +52,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Import\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+     <Compile Include="Assets\Import\Ultimate Game Tools\Fracturing\Editor\ExplosionSourceEditor.cs" />
+     <Compile Include="Assets\Import\Ultimate Game Tools\Fracturing\Editor\FracturedChunkEditor.cs" />
+     <Compile Include="Assets\Import\Ultimate Game Tools\Fracturing\Editor\FracturedObjectEditor.cs" />
+     <Compile Include="Assets\Import\Ultimate Game Tools\MeshCombiner\Editor\CombinedMeshEditor.cs" />
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>D:/Games/Boom Boom Boom/Boom Boom Boom/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>

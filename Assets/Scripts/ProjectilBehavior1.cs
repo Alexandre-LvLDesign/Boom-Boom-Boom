@@ -35,7 +35,7 @@ public class ProjectilBehavior1 : MonoBehaviour
 			else if (other.transform.tag =="PlayerTag_1")
 			{
 				GameObject.Find("Player1_Kart").GetComponent<CanonShootP1>().isDestroyed=true;
-				GameObject.Find("Player1_Kart").GetComponent<StateP2>().Damaged(3);
+				GameObject.Find("Player1_Kart").GetComponent<StateP1>().Damaged(3);
 				Instantiate(ParticlesToSpawn[1], transform.position, transform.rotation);
 				Destroy(gameObject);
 			}
