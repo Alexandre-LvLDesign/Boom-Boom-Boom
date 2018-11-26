@@ -12,6 +12,8 @@ TagManager:
   - RockTag
   - PlayerTag_1
   - PlayerTag_2
+  - J1
+  - J2
   layers:
   - Default
   - TransparentFX

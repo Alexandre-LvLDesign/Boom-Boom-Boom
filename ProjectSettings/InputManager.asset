@@ -6,7 +6,7 @@ InputManager:
   serializedVersion: 2
   m_Axes:
   - serializedVersion: 3
-    m_Name: LeftTriggerJ1
+    m_Name: LeftTrigger_J1
     descriptiveName: Dash
     descriptiveNegativeName: 
     negativeButton: 
@@ -22,7 +22,7 @@ InputManager:
     axis: 0
     joyNum: 1
   - serializedVersion: 3
-    m_Name: LeftTriggerJ2
+    m_Name: LeftTrigger_J2
     descriptiveName: Dash
     descriptiveNegativeName: 
     negativeButton: 
@@ -38,7 +38,7 @@ InputManager:
     axis: 0
     joyNum: 2
   - serializedVersion: 3
-    m_Name: RightTriggerJ1
+    m_Name: RightTrigger_J1
     descriptiveName: Shoot
     descriptiveNegativeName: 
     negativeButton: 
@@ -54,7 +54,7 @@ InputManager:
     axis: 9
     joyNum: 1
   - serializedVersion: 3
-    m_Name: RightTriggerJ2
+    m_Name: RightTrigger_J2
     descriptiveName: Shoot
     descriptiveNegativeName: 
     negativeButton: 
@@ -70,7 +70,7 @@ InputManager:
     axis: 9
     joyNum: 2
   - serializedVersion: 3
-    m_Name: LeftJoystickHorizontalJ1
+    m_Name: LeftJoystickHorizontal_J1
     descriptiveName: X Axis
     descriptiveNegativeName: 
     negativeButton: 
@@ -86,7 +86,7 @@ InputManager:
     axis: 0
     joyNum: 1
   - serializedVersion: 3
-    m_Name: LeftJoystickHorizontalJ2
+    m_Name: LeftJoystickHorizontal_J2
     descriptiveName: X Axis
     descriptiveNegativeName: 
     negativeButton: 
@@ -102,23 +102,23 @@ InputManager:
     axis: 0
     joyNum: 2
   - serializedVersion: 3
-    m_Name: RightJoystickHorizontalJ1
+    m_Name: RightJoystickHorizontal_J1
     descriptiveName: X Axis
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 3
+    gravity: 0.5
     dead: 0.01
-    sensitivity: 5
+    sensitivity: 0.05
     snap: 0
     invert: 0
     type: 2
     axis: 3
     joyNum: 1
   - serializedVersion: 3
-    m_Name: RightJoystickHorizontalJ2
+    m_Name: RightJoystickHorizontal_J2
     descriptiveName: X Axis
     descriptiveNegativeName: 
     negativeButton: 
@@ -134,15 +134,15 @@ InputManager:
     axis: 3
     joyNum: 2
   - serializedVersion: 3
-    m_Name: RightJoystickVerticalJ1
+    m_Name: RightJoystickVertical_J1
     descriptiveName: Y Axis
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 3
-    dead: 0.01
+    gravity: 0.5
+    dead: 2
     sensitivity: 5
     snap: 0
     invert: 0
@@ -150,7 +150,7 @@ InputManager:
     axis: 4
     joyNum: 1
   - serializedVersion: 3
-    m_Name: RightJoystickVerticalJ2
+    m_Name: RightJoystickVertical_J2
     descriptiveName: Y Axis
     descriptiveNegativeName: 
     negativeButton: 

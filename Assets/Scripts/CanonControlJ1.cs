@@ -9,33 +9,25 @@ public class CanonControlJ1 : MonoBehaviour
 
     [Header("Clamp X (Vertical)")]
 
-    private float xAngle;
     public float minXRotation = 0;
     public float maxXRotation = 0;
     [Header("Clamp Y (Horizontal)")]
 
-    private float yAngle;
     public float minYRotation = 0;
     public float maxYRotation = 0;
 
 
-    private void Start() {
-        
-    }
+    private float currrentYAngle = 0;
+    private float currrentXAngle = 0;
+
+    //float XAxis = Input.GetAxis("RightJoystickVerticalJ2");
+    //float YAxis = Input.GetAxis("RightJoystickHorizontalJ2");
 
     void Update () 
     {
-        //Horizontal => regarder de droite à gauche => axe Y =>RightJoystickHorizontalJ1
-        //Vertical => Regarder de haut en bas => axe X => RightJoystickVerticalJ1
-        xAngle = Input.GetAxis("RightJoystickVerticalJ1");
-        yAngle = Input.GetAxis("RightJoystickHorizontalJ1");
+        /*currrentXAngle = Mathf.Clamp(currrentXAngle + Input.GetAxis("RightJoystickVerticalJ1"), minXRotation, maxXRotation);
+        currrentYAngle = Mathf.Clamp(currrentYAngle + Input.GetAxis("RightJoystickHorizontalJ1") * ySpeed, minYRotation, maxYRotation);
 
-        yAngle = Mathf.Clamp(yAngle, -60, 60);
-        
-        // transform.eulerAngles = new Vector3(xAngle, yAngle ,0.0f);
-    
-
-        //transform.Rotate(xAngle, yAngle * ySpeed, 0.0f);
-        //transform.eulerAngles.y =
+        transform.localEulerAngles = new Vector3(currrentXAngle, currrentYAngle, 0);*/
     }
 }

@@ -41,6 +41,7 @@ public class ProjectilBehavior2 : MonoBehaviour
 			else if (other.transform.tag == "TreeTag")
 			{
 				GameObject.Find("Player2_Kart").GetComponent<CanonShootP2>().isDestroyed=true;
+				other.gameObject.GetComponent<Env_LifePoint>().Damaged(10);
 				Instantiate(ParticlesToSpawn[2], transform.position, transform.rotation);
 				Destroy(gameObject);
 			}

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveP1 : MonoBehaviour 
 {
+	[Header("HorizontalMovementManager")]
 	public Rails rail;
 	public PlayMode mode;
 	public float speed = 2.5f;

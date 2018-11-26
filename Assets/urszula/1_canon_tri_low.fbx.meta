@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 50003eb7adc89d4459f1ec58d175fbc1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: att_claws_low
+    100002: att_cyl_low
+    100004: att_socle_low
+    100006: att_wheel_low
+    100008: attach_low
+    100010: bullets_low
+    100012: canon_low
+    100014: //RootNode
+    100016: deco_low
+    100018: fer_deco_low
+    100020: fer_round_low
+    100022: fer_socle_low
+    100024: hands_low
+    100026: kart_bar_low
+    100028: kart_low
+    100030: kart_under_low
+    100032: socle_low
+    100034: wheel_low
+    400000: att_claws_low
+    400002: att_cyl_low
+    400004: att_socle_low
+    400006: att_wheel_low
+    400008: attach_low
+    400010: bullets_low
+    400012: canon_low
+    400014: //RootNode
+    400016: deco_low
+    400018: fer_deco_low
+    400020: fer_round_low
+    400022: fer_socle_low
+    400024: hands_low
+    400026: kart_bar_low
+    400028: kart_low
+    400030: kart_under_low
+    400032: socle_low
+    400034: wheel_low
+    2100000: lambert1
+    2300000: att_claws_low
+    2300002: att_cyl_low
+    2300004: att_socle_low
+    2300006: att_wheel_low
+    2300008: attach_low
+    2300010: bullets_low
+    2300012: canon_low
+    2300014: fer_deco_low
+    2300016: fer_round_low
+    2300018: fer_socle_low
+    2300020: hands_low
+    2300022: kart_bar_low
+    2300024: kart_low
+    2300026: kart_under_low
+    2300028: socle_low
+    2300030: wheel_low
+    3300000: att_claws_low
+    3300002: att_cyl_low
+    3300004: att_socle_low
+    3300006: att_wheel_low
+    3300008: attach_low
+    3300010: bullets_low
+    3300012: canon_low
+    3300014: fer_deco_low
+    3300016: fer_round_low
+    3300018: fer_socle_low
+    3300020: hands_low
+    3300022: kart_bar_low
+    3300024: kart_low
+    3300026: kart_under_low
+    3300028: socle_low
+    3300030: wheel_low
+    4300000: socle_low
+    4300002: att_claws_low
+    4300004: att_cyl_low
+    4300006: att_wheel_low
+    4300008: att_socle_low
+    4300010: canon_low
+    4300012: fer_round_low
+    4300014: fer_socle_low
+    4300016: fer_deco_low
+    4300018: hands_low
+    4300020: attach_low
+    4300022: wheel_low
+    4300024: bullets_low
+    4300026: kart_bar_low
+    4300028: kart_low
+    4300030: kart_under_low
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
